@@ -1,0 +1,11 @@
+torch==1.1.0
+Cython
+pyyaml
+yacs>=0.1.5
+tqdm
+torch_dct
+pillow
+opencv-python
+tensorboardX
+matplotlib
+seaborn
