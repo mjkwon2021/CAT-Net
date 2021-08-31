@@ -11,7 +11,7 @@ Myung-Joon Kwon, In-Jae Yu, Seung-Hun Nam, and Heung-Kyu Lee, “CAT-Net: Compre
 * v2 (arXiv, under review) [[link to the paper]](https://arxiv.org/abs/2108.12947)
 
 
-Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization,” arXiv:2108.12947 [cs, eess], Aug. 2021
+Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization”, arXiv:2108.12947 [cs, eess], Aug. 2021
 
 ## Setup
 ##### 1. Clone this repo.
