@@ -1,7 +1,7 @@
 # CAT-Net
 This is the official repository for Compression Artifact Tracing Network (CAT-Net). Given a possibly manipulated image, this network outputs a probability map of each pixel being manipulated.
 
-Keyword: CAT-Net, Image forensics, Multimedia forensics, Image manipulation detection, Image manipulation localization, Image processing
+Keywords: CAT-Net, Image forensics, Multimedia forensics, Image manipulation detection, Image manipulation localization, Image processing
 
 * v1 (WACV2021) [[link to the paper]](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
 
