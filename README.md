@@ -1,7 +1,17 @@
 # CAT-Net
-This is the official repository for Compression Artifact Tracing Network (CAT-Net).
+This is the official repository for Compression Artifact Tracing Network (CAT-Net). Given a possibly manipulated image, this network outputs a probability map of each pixel being manipulated.
 
-[link to WACV2021 paper](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
+Keyword: CAT-Net, Image forensics, Multimedia forensics, Image manipulation detection, Image manipulation localization, Image processing
+
+* v1 (WACV2021) [[link to the paper]](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
+
+
+Myung-Joon Kwon, In-Jae Yu, Seung-Hun Nam, and Heung-Kyu Lee, “CAT-Net: Compression Artifact Tracing Network for Detection and Localization of Image Splicing”, Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021, pp. 375–384
+
+* v2 (arXiv, under review) [[link to the paper]](https://arxiv.org/abs/2108.12947)
+
+
+Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization,” arXiv:2108.12947 [cs, eess], Aug. 2021
 
 ## Setup
 ##### 1. Clone this repo.
@@ -77,7 +87,7 @@ This code is built on top of [HRNet](https://github.com/HRNet/HRNet-Semantic-Seg
 For CAT-Net, you may freely use it for research purpose.
 
 ## Citation
-* v1
+* v1 (WACV2021)
 ````
 @inproceedings{kwon2021cat,
   title={CAT-Net: Compression Artifact Tracing Network for Detection and Localization of Image Splicing},
@@ -87,5 +97,15 @@ For CAT-Net, you may freely use it for research purpose.
   year={2021}
 }
 ````
-* v2 
-on progress...
+* v2 (arXiv, under review)
+````
+@article{
+  title = {Learning {JPEG} Compression Artifacts for Image Manipulation Detection and Localization},
+  url = {http://arxiv.org/abs/2108.12947},
+  journaltitle = {{arXiv}:2108.12947 [cs, eess]},
+  author = {Kwon, Myung-Joon and Nam, Seung-Hun and Yu, In-Jae and Lee, Heung-Kyu and Kim, Changick},
+  date = {2021-08-29},
+  eprinttype = {arxiv},
+  eprint = {2108.12947},
+}
+````
