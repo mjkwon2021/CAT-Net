@@ -32,7 +32,7 @@ CAT-Net
 ````
 If you are trying to test the network, you only need CAT_full_v1.pth.tar or CAT_full_v2.pth.tar.
 
-v1 indicates the WACV model while v2 indicates the journal model (on progress). If you are planning to train from scratch, you can skip downloading.
+v1 indicates the WACV model while v2 indicates the journal model. Both models have same architecture but the trained weights are different. v1 targets only splicing but v2 also targets copy-move forgery. If you are planning to train from scratch, you can skip downloading.
 
 ##### 3. Setup environment.
 ````
@@ -55,6 +55,8 @@ Set settings properly in 'experiments/CAT_full.yaml'. If you are using single GP
 
 ## Inference
 Put input images in 'input' directory. Use English file names.
+
+Choose between full CAT-Net and the DCT stream by commenting/uncommenting lines 65-66 and 75-76 in `tools/infer.py`. Also, choose between v1 and v2 in the lines 65-66 by modifying the strings.
 
 At the root of this repo, run:
 ````
@@ -79,7 +81,7 @@ At the root of this repo, run:
 ````
 python tools/train.py
 ````
-Training starts from pretrained weight if you place them properly.
+Training starts from the pretrained weight if you place it properly.
 
 ## Licence
 This code is built on top of [HRNet](https://github.com/HRNet/HRNet-Semantic-Segmentation). You need to follow their licence.
