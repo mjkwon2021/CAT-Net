@@ -16,7 +16,7 @@ Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “L
 ## Setup
 ##### 1. Clone this repo.
 
-##### 2. Download weights from [link](https://drive.google.com/drive/folders/1hBEfnFtGG6q_srBHVEmbF3fTq0IhP8jq?usp=sharing).
+##### 2. Download the weights from: [[Google Drive]](https://drive.google.com/drive/folders/1hBEfnFtGG6q_srBHVEmbF3fTq0IhP8jq?usp=sharing) or [[Baiduyun]](https://pan.baidu.com/s/1hecZC0IZXdgh5WRbRoAytQ) (extract code: ycft).
 ````
 CAT-Net
 ├── pretrained_models  (pretrained weights for each stream)
