@@ -16,7 +16,7 @@ Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “L
 ## Setup
 ##### 1. Clone this repo.
 
-##### 2. Download the weights from: [[Google Drive]](https://drive.google.com/drive/folders/1hBEfnFtGG6q_srBHVEmbF3fTq0IhP8jq?usp=sharing) or [[Baiduyun]](https://pan.baidu.com/s/1hecZC0IZXdgh5WRbRoAytQ) (extract code: ycft).
+##### 2. Download the weights from: [[Google Drive Link]](https://drive.google.com/drive/folders/1hBEfnFtGG6q_srBHVEmbF3fTq0IhP8jq?usp=sharing) or [[Baiduyun Link]](https://pan.baidu.com/s/1hecZC0IZXdgh5WRbRoAytQ) (extract code: ycft).
 ````
 CAT-Net
 ├── pretrained_models  (pretrained weights for each stream)
@@ -68,7 +68,14 @@ The predictions are saved in 'output_pred' directory as heatmaps.
 ##### 1. Prepare datasets.
 Obtain datasets you want to use for training.
 
+You can download tampCOCO and compRAISE datasets on [[Google Drive Link]](https://drive.google.com/drive/folders/1WO-e_01NmTdKmZbHyWlKVjE5Fsey8jQO?usp=sharing).
+
+Note that tampCOCO consists of four datasets: cm_COCO, sp_COCO, bcm_COCO (=CM RAISE), bcmc_COCO (=CM-JPEG RAISE).
+
+Also note that compRAISE is an alias of JPEG RAISE in the journal paper.
+
 Set training and validation set configuration in Splicing/data/data_core.py.
+
 
 CAT-Net only allows JPEG images for training. 
 So non-JPEG images in each dataset must be JPEG compressed (with Q100 and no chroma subsampling) before you start training.
