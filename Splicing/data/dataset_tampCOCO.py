@@ -3,7 +3,9 @@ Created by Myung-Joon Kwon
 mjkwon2021@gmail.com
 27 Jan 2021
 
-This file is deprecated. Use tamp_COCO instead.
+Note: 'tampCOCO' includes four different custom datasets: cm_COCO, bcm_COCO, bcmc_COCO, sp_COCO
+'bcm_COCO' is an alias of 'CM RAISE' in the paper.
+'bcmc_COCO' is an alias of 'CM-JPEG RAISE' in the paper.
 """
 import project_config
 from Splicing.data.AbstractDataset import AbstractDataset
