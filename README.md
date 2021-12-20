@@ -74,6 +74,8 @@ Note that tampCOCO consists of four datasets: cm_COCO, sp_COCO, bcm_COCO (=CM RA
 
 Also note that compRAISE is an alias of JPEG RAISE in the journal paper.
 
+You are allowed to use the datasets for research purpose only.
+
 Set training and validation set configuration in Splicing/data/data_core.py.
 
 
@@ -95,7 +97,12 @@ This code is built on top of [HRNet](https://github.com/HRNet/HRNet-Semantic-Seg
 
 For CAT-Net, you may freely use it for research purpose.
 
+Commercial usage is strictly prohibited.
+
+
+
 ## Citation
+If you use some resources provided by this repo, please cite these papers.
 * v1 (WACV2021)
 ````
 @inproceedings{kwon2021cat,
