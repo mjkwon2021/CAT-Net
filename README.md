@@ -1,17 +1,18 @@
 # CAT-Net
 This is the official repository for Compression Artifact Tracing Network (CAT-Net). Given a possibly manipulated image, this network outputs a probability map of each pixel being manipulated.
+This repo provides <B>codes, pretrained/trained weights, and our five custom datasets</B>. For more details, see the papers below. 
+The IJCV paper is an extension of the WACV paper and it covers almost all contents provided by WACV paper.
 
-Keywords: CAT-Net, Image forensics, Multimedia forensics, Image manipulation detection, Image manipulation localization, Image processing
-
-* v1 (WACV2021) [[link to the paper]](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
-
+* CAT-Net v1: WACV 2021 [[link to the paper]](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
 
 Myung-Joon Kwon, In-Jae Yu, Seung-Hun Nam, and Heung-Kyu Lee, “CAT-Net: Compression Artifact Tracing Network for Detection and Localization of Image Splicing”, Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021, pp. 375–384
 
-* v2 (arXiv, under review) [[link to the paper]](https://arxiv.org/abs/2108.12947)
-
+* CAT-Net v2: Accepted to International Journal of Computer Vision (IJCV) at Apr 2022 [[link to the paper]](https://arxiv.org/abs/2108.12947)
 
 Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization”, arXiv:2108.12947 [cs, eess], Aug. 2021
+
+
+
 
 ## Setup
 ##### 1. Clone this repo.
@@ -40,11 +41,6 @@ conda create -n cat python=3.6
 conda activate cat
 conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
 pip install -r requirements.txt
-````
-You need to manually install **JpegIO** from [here](https://github.com/dwgoon/jpegio). PIP installing is not supported.
-After cloning JpegIO repo, go to JpegIO directory and run:
-````
-python setup.py install
 ````
 
 ##### 4. Modify configuration files.
@@ -103,7 +99,7 @@ Commercial usage is strictly prohibited.
 
 ## Citation
 If you use some resources provided by this repo, please cite these papers.
-* v1 (WACV2021)
+* CAT-Net v1 (WACV2021)
 ````
 @inproceedings{kwon2021cat,
   title={CAT-Net: Compression Artifact Tracing Network for Detection and Localization of Image Splicing},
@@ -113,7 +109,7 @@ If you use some resources provided by this repo, please cite these papers.
   year={2021}
 }
 ````
-* v2 (arXiv, under review)
+* CAT-Net v2 (Accepted to IJCV)
 ````
 @article{
   title = {Learning {JPEG} Compression Artifacts for Image Manipulation Detection and Localization},
@@ -125,3 +121,7 @@ If you use some resources provided by this repo, please cite these papers.
   eprint = {2108.12947},
 }
 ````
+
+
+##### Keywords
+CAT-Net, Image forensics, Multimedia forensics, Image manipulation detection, Image manipulation localization, Image processing
