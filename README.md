@@ -1,15 +1,15 @@
 # CAT-Net
 This is the official repository for Compression Artifact Tracing Network (CAT-Net). Given a possibly manipulated image, this network outputs a probability map of each pixel being manipulated.
 This repo provides <B>codes, pretrained/trained weights, and our five custom datasets</B>. For more details, see the papers below. 
-The IJCV paper is an extension of the WACV paper and it covers almost all contents provided by WACV paper.
+The IJCV paper is an extension of the WACV paper and it covers almost all contents provided by the WACV paper.
 
 * CAT-Net v1: WACV 2021 [[link to the paper]](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
 
 Myung-Joon Kwon, In-Jae Yu, Seung-Hun Nam, and Heung-Kyu Lee, “CAT-Net: Compression Artifact Tracing Network for Detection and Localization of Image Splicing”, Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2021, pp. 375–384
 
-* CAT-Net v2: Accepted to International Journal of Computer Vision (IJCV) at Apr 2022 [[link to the paper]](https://arxiv.org/abs/2108.12947)
+* CAT-Net v2: International Journal of Computer Vision (IJCV), 2022 [[link to the paper]](https://link.springer.com/article/10.1007/s11263-022-01617-5) [[arXiv]](https://arxiv.org/abs/2108.12947)
 
-Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization”, arXiv:2108.12947 [cs, eess], Aug. 2021
+Myung-Joon Kwon, Seung-Hun Nam, In-Jae Yu, Heung-Kyu Lee, and Changick Kim, “Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization”, International Journal of Computer Vision, 2022, vol. 130, no. 8, pp. 1875–1895, Aug. 2022.
 
 
 
@@ -109,16 +109,19 @@ If you use some resources provided by this repo, please cite these papers.
   year={2021}
 }
 ````
-* CAT-Net v2 (Accepted to IJCV)
+* CAT-Net v2 (IJCV)
 ````
-@article{
-  title = {Learning {JPEG} Compression Artifacts for Image Manipulation Detection and Localization},
-  url = {http://arxiv.org/abs/2108.12947},
-  journaltitle = {{arXiv}:2108.12947 [cs, eess]},
-  author = {Kwon, Myung-Joon and Nam, Seung-Hun and Yu, In-Jae and Lee, Heung-Kyu and Kim, Changick},
-  date = {2021-08-29},
-  eprinttype = {arxiv},
-  eprint = {2108.12947},
+@article{kwon2022learning,
+  title={Learning JPEG Compression Artifacts for Image Manipulation Detection and Localization},
+  author={Kwon, Myung-Joon and Nam, Seung-Hun and Yu, In-Jae and Lee, Heung-Kyu and Kim, Changick},
+  journal={International Journal of Computer Vision},
+  volume = {130},
+  number = {8},
+  pages={1875--1895},
+  month = aug,
+  year={2022},
+  publisher={Springer},
+  doi = {10.1007/s11263-022-01617-5}
 }
 ````
 
