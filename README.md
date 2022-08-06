@@ -64,13 +64,16 @@ The predictions are saved in 'output_pred' directory as heatmaps.
 ##### 1. Prepare datasets.
 Obtain datasets you want to use for training.
 
-You can download tampCOCO and compRAISE datasets on [[Google Drive Link]](https://drive.google.com/drive/folders/1WO-e_01NmTdKmZbHyWlKVjE5Fsey8jQO?usp=sharing).
+You can download tampCOCO datasets on [[Baiduyun Link]](https://pan.baidu.com/s/1n9nN6cB0FGxsl6VH53CRwQ?pwd=ycft).
 
 Note that tampCOCO consists of four datasets: cm_COCO, sp_COCO, bcm_COCO (=CM RAISE), bcmc_COCO (=CM-JPEG RAISE).
 
 Also note that compRAISE is an alias of JPEG RAISE in the journal paper.
 
 You are allowed to use the datasets for research purpose only.
+
+[6 Aug 2022 update] Now the link changed from Google Drive to Baiduyun. 
+compRAISE can be easily created by just JPEG compressing RAISE. 
 
 Set training and validation set configuration in Splicing/data/data_core.py.
 
