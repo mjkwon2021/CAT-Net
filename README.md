@@ -5,8 +5,8 @@ The IJCV paper is an extension of the WACV paper and it covers almost all conten
 
 Example input / output:
 
-![input](https://github.com/mjkwon2021/CAT-Net/blob/main/github_images/example_input.jpg)
-![output](https://github.com/mjkwon2021/CAT-Net/blob/main/github_images/example_output_pred.png)
+<img src="https://github.com/mjkwon2021/CAT-Net/blob/main/github_images/example_input.jpg" width="400">
+<img src="https://github.com/mjkwon2021/CAT-Net/blob/main/github_images/example_output_pred.png" width="400">
 
 
 * CAT-Net v1: WACV 2021 [[link to the paper]](https://openaccess.thecvf.com/content/WACV2021/html/Kwon_CAT-Net_Compression_Artifact_Tracing_Network_for_Detection_and_Localization_of_WACV_2021_paper.html)
