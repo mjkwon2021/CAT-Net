@@ -98,7 +98,7 @@ Obtain datasets you want to use for training.
 Set training and validation set configuration in Splicing/data/data_core.py [[Link]](
 https://github.com/mjkwon2021/CAT-Net/blob/main/Splicing/data/data_core.py).
 
-[2024-01-22 Update] Note on obtaining FantasticReality dataset: see [[This issue]](https://github.com/mjkwon2021/CAT-Net/issues/40).
+[2024-01-22 Update] Note on obtaining FantasticReality dataset: see [[This issue]](https://github.com/mjkwon2021/CAT-Net/issues/51).
 
 CAT-Net only allows JPEG images for training. 
 So non-JPEG images in each dataset must be JPEG compressed (with Q100 and no chroma subsampling) before you start training.
