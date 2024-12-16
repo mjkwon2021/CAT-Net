@@ -31,12 +31,10 @@ For more details, refer to the papers below.
 <div style="display: flex; justify-content: space-between; gap: 5px;">
   <figure style="text-align: center; width: 400px;">
     <img src="https://github.com/mjkwon2021/CAT-Net/blob/main/github_images/example_input.jpg" width="400px">
-    <figcaption>Input Image</figcaption>
   </figure>
 
   <figure style="text-align: center; width: 400px;">
     <img src="https://github.com/mjkwon2021/CAT-Net/blob/main/github_images/example_output_pred.png" width="400px">
-    <figcaption>Output Probability Map</figcaption>
   </figure>
 </div>
 
@@ -105,10 +103,10 @@ python tools/infer.py
 
 ### 1. Download tampCOCO / compRAISE datasets
 - **tampCOCO**: [Kaggle Link](https://www.kaggle.com/datasets/qsii24/tampcoco) or [Baiduyun Link](https://pan.baidu.com/s/1n9nN6cB0FGxsl6VH53CRwQ?pwd=ycft) (Extract code: `ycft`)
-  - Contains: `cm_COCO`, `sp_COCO`, `bcm_COCO`, `bcmc_COCO`.
+  - Contains: `cm_COCO`, `sp_COCO`, `bcm_COCO (=CM RAISE)`, `bcmc_COCO (=CM-JPEG RAISE)`.
   - Follows MS COCO licensing terms.
 - **compRAISE**: [Kaggle Link](https://www.kaggle.com/datasets/qsii24/compraise)
-  - Also referred to as JPEG RAISE in the IJCV paper.
+  - Also referred to as `JPEG RAISE` in the IJCV paper.
   - Follows RAISE licensing terms.
 
 **Note**: Use datasets for research purposes only.
@@ -163,4 +161,8 @@ If you use CAT-Net or its resources, please cite the following papers:
 
 ## 🔑 Keywords
 CAT-Net, Image Forensics, Multimedia Forensics, Image Manipulation Detection, Image Manipulation Localization, Image Processing
+
+---
+## 💎 Check Out SAFIRE!
+I have published a new image forgery localization paper, SAFIRE: Segment Any Forged Image Region (AAAI 2025). SAFIRE can perform multi-source partitioning in addition to traditional binary prediction. Check it out on GitHub: [SAFIRE GitHub Link](https://github.com/mjkwon2021/SAFIRE)
 
