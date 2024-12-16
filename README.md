@@ -99,7 +99,7 @@ python tools/infer.py
 
 ---
 
-## 😺 Training
+## 🏗️ Training
 
 ### 1. Download tampCOCO / compRAISE datasets
 - **tampCOCO**: [Kaggle Link](https://www.kaggle.com/datasets/qsii24/tampcoco) or [Baiduyun Link](https://pan.baidu.com/s/1n9nN6cB0FGxsl6VH53CRwQ?pwd=ycft) (Extract code: `ycft`)
@@ -164,5 +164,5 @@ CAT-Net, Image Forensics, Multimedia Forensics, Image Manipulation Detection, Im
 
 ---
 ## 💎 Check Out SAFIRE!
-I have published a new image forgery localization paper, SAFIRE: Segment Any Forged Image Region (AAAI 2025). SAFIRE can perform multi-source partitioning in addition to traditional binary prediction. Check it out on GitHub: [SAFIRE GitHub Link](https://github.com/mjkwon2021/SAFIRE)
+I have published a new image forgery localization paper, SAFIRE: Segment Any Forged Image Region (AAAI 2025). SAFIRE can perform multi-source partitioning in addition to traditional binary prediction. Check it out on GitHub: [[SAFIRE GitHub Link]](https://github.com/mjkwon2021/SAFIRE)
 
