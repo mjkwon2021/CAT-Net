@@ -1,4 +1,4 @@
-torch==1.1.0
+torch==1.11.0
 Cython
 pyyaml
 yacs>=0.1.5
