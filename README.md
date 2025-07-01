@@ -4,7 +4,7 @@ Welcome to the official repository for **Compression Artifact Tracing Network (C
 
 CAT-Net has two versions:
 - **CAT-Net v1**: Targets only splicing forgery (WACV 2021).
-- **CAT-Net v2**: Extends to both splicing and copy-move forgery (IJCV 2022).
+- **CAT-Net v2**: Extends to general forgery types with mathematical analysis (IJCV 2022).
 
 For more details, refer to the papers below.
 
