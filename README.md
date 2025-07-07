@@ -111,6 +111,20 @@ python tools/infer.py
 
 **Note**: Use datasets for research purposes only.
 
+#### 📦️ Other Training Dataset
+
+Our training settings have become the standard setup for image manipulation (=forgery) detection and localization, which has been referred to as CAT-Net settings or the CAT protocol. CAT-Net settings use five datasets for training: FantasticReality, CASIA v2, IMD2020, TampCOCO, and CompRAISE. Also, the setting uses balanced sampling: see the [[__getitem__ function]](https://github.com/mjkwon2021/CAT-Net/blob/e330b5238e8f6a85133819616b24475807e97784/Splicing/data/data_core.py#L97).
+
+So we provide links to other training datasets.
+
+- **FantasticReality**: The official link is broken. Use: [[Link to Download]](https://github.com/mjkwon2021/CAT-Net/issues/51#issuecomment-2537517937)
+
+- **CASIA**: The official link is broken. Use: [[Link to Download]](https://drive.google.com/drive/folders/13jyChWqg_aKMAxqj-0T2SwSxRrUP7V_X?usp=sharing)
+ 
+- **IMD2020**: Official link: [[Link to Download]](https://staff.utia.cas.cz/novozada/db/)
+
+---
+
 ### 2. Prepare datasets
 - Obtain the required datasets.
 - Configure training/validation paths in `Splicing/data/data_core.py`.
