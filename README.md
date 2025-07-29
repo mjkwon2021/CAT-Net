@@ -68,7 +68,7 @@ CAT-Net
 │           └── CAT_full_v2.pth.tar
 ```
 - **CAT_full_v1**: WACV model (splicing forgery only).
-- **CAT_full_v2**: IJCV model (splicing + copy-move forgery).
+- **CAT_full_v2**: IJCV model (general forgery).
 
 ### 3. Setup environment
 ```bash
@@ -102,6 +102,9 @@ python tools/infer.py
 ## 🏗️ Training
 
 ### 1. Download tampCOCO / compRAISE datasets
+
+We generated two forgery datasets. Refer to the IJCV paper for details.
+
 - **tampCOCO**: [Kaggle Link](https://www.kaggle.com/datasets/qsii24/tampcoco) or [Baiduyun Link](https://pan.baidu.com/s/1n9nN6cB0FGxsl6VH53CRwQ?pwd=ycft) (Extract code: `ycft`)
   - Contains: `cm_COCO`, `sp_COCO`, `bcm_COCO (=CM RAISE)`, `bcmc_COCO (=CM-JPEG RAISE)`.
   - Follows MS COCO licensing terms.
