@@ -178,7 +178,7 @@ If you use CAT-Net or its resources, please cite the following papers:
 
 ## ©️ License
 
-Update (2026-08-05): Working as a researcher in the industry made me realize that strict "research-only" licenses can actually make it quite difficult for corporate researchers to use open-source work, even for pure internal R&D. Because of this, I've decided to relax the licenses for the CAT-Net code and weights, as well as the tampCOCO and compRAISE datasets, to CC-BY 4.0.
+Update (2026-08-05): Working as a researcher in the industry made me realize that strict "research-only" licenses can actually make it quite difficult for corporate researchers to use open-source work, even for pure internal R&D. Because of this, I've decided to relax the licenses for the CAT-Net weights, as well as the tampCOCO and compRAISE datasets, to CC-BY 4.0. And CAT-Net code to Apache 2.0.
 
 This means you are now free to use them for commercial purposes, provided you give proper attribution.
 
