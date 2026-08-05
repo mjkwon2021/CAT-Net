@@ -176,6 +176,16 @@ If you use CAT-Net or its resources, please cite the following papers:
 
 ---
 
+## ©️ License
+
+Update (2026-08-05): Working as a researcher in the industry made me realize that strict "research-only" licenses can actually make it quite difficult for corporate researchers to use open-source work, even for pure internal R&D. Because of this, I've decided to relax the licenses for the CAT-Net code and weights, as well as the tampCOCO and compRAISE datasets, to CC-BY 4.0.
+
+This means you are now free to use them for commercial purposes, provided you give proper attribution.
+
+Please Note: You are still responsible for checking and complying with the copyrights and licenses of the original images used to build the datasets, as well as any third-party code dependencies that CAT-Net relies on. Finally, I (Myung-Joon Kwon) assume no responsibility or liability for any issues arising from the use of the code or data in this repository.
+
+---
+
 ## 🔑 Keywords
 CAT-Net, Image Forensics, Multimedia Forensics, Image Manipulation Detection, Image Manipulation Localization, Image Processing
 
