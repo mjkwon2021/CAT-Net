@@ -96,7 +96,7 @@ class AbstractDataset(ABC):
             DCT_coef.append(out_arr)
 
         # quantization tables
-        qtables = [jpeg.quant_tables[ci[i].quant_tbl_no].astype(np.float) for i in range(num_channels)]
+        qtables = [jpeg.quant_tables[ci[i].quant_tbl_no].astype(np.float64) for i in range(num_channels)]
 
         return DCT_coef, qtables
 
